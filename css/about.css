@@ -1,0 +1,101 @@
+/* Hero Section */
+
+#about-hero {
+    height: 500px;
+    width: 80%;
+    float: left;
+    background-image: url("http://cdn.playbuzz.com/cdn/eea0ffe9-eb5f-46bd-803a-b44056bc78dc/02fb769b-2032-4d66-8fba-e56d90112bfc.jpg");
+    background-size:cover;
+    background-position: center;
+    /*Resize image with pixlr*/
+}
+
+video {
+    height: 400px;
+    width: 600px;
+}
+
+#about-hero~h1 {
+    width: 10%;
+    float: right;
+    margin-top: 11%;
+    margin-right: 5%;
+}
+
+#box {
+    width: 100%;
+    height: 350px;
+    clear: both;
+}
+
+.column {
+    width: 33%;
+    height: 350px;
+    border: 2px solid #000000;
+}
+
+#col-1 {
+    float: left;
+    background-color: #006699;
+    position: relative;
+}
+
+#col-2 {
+    float: left;
+    background-color: #1ab2ff;
+    position: relative;    
+}
+
+#col-3 {
+    float: left;
+    background-color: #006699;
+    position: relative;    
+}
+
+#col-1 button {
+    background-color: #00334d;
+    border: none;
+    padding: 4%;
+    border-radius: 8px;
+    font-size: 1em;
+    color: #ffffff;
+    position: absolute;
+    bottom: 15px;
+    left: 31%;
+}
+
+#col-2 button {
+    background-color: #00334d;
+    border: none;
+    padding: 4%;
+    border-radius: 8px;
+    font-size: 1em;
+    color: #ffffff; 
+    position: absolute;
+    bottom: 15px;
+    left: 37%;
+}
+
+#col-3 button {
+    background-color: #00334d;
+    border: none;
+    padding: 4%;
+    border-radius: 8px;
+    font-size: 1em;
+    color: #ffffff;  
+    position: absolute;
+    bottom: 15px;
+    left: 39%;    
+}
+
+#col-1 button:hover {
+    font-size: 20px;
+}
+
+#col-2 button:hover {
+    font-size: 20px;
+}
+
+#col-3 button:hover {
+    font-size: 20px;
+}

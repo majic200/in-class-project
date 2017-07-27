@@ -1,0 +1,166 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto');
+
+/* UNIVERSALS*/
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: yellow;
+    border: 2px solid yellow;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Header Styles */
+
+#logo-img {
+    height: 180px;
+}
+
+body {
+    background-color: #cceeff;
+}
+
+header {
+    background-color: #cc0000;
+}
+
+img {
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+nav {
+    padding-top: 33px;
+    float: right;
+}
+
+nav ul li, img, nav {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+nav ul li {
+     padding: 10px;
+
+}
+
+li:hover {
+     background-color: black;
+     color: yellow;
+}
+
+/* Hero section begins*/
+
+#hero {
+    height: 400px;
+    background-image: url("../img/Hero.jpg");
+    background-size: cover;
+    background-position: center;
+    font-size: 52px;
+
+}
+
+#h2 {
+    position: relative;
+    top: 35%;
+    text-align: center;
+    color: #ffff00;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Sidebar begins */
+
+aside {
+    height: 300px;
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    background-color: #006699;
+}
+
+#blog-links {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#blog-links li {
+    height: 25%;
+    padding-top: 25px;
+}
+
+/* Main content starts here */
+
+main {
+    height: 300px;
+    width: 75%;
+    float: right;
+    overflow: auto;
+}
+
+#main-text {
+    font-size: 1.52em;
+    line-height: 35px;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+main .text-center {
+    letter-spacing: 8px;
+}
+
+/* Footer starts here */
+
+footer {
+    clear: both;
+    background-color: #333;
+    padding: 24px 0px;
+}
+
+.fa {
+    margin: 0px 10px 0px 10px;
+}
+
+.fa-facebook {
+    color: #ffffff;
+}
+
+.fa-twitter {
+    color: #66ccff;
+}
+
+.fa-youtube {
+    color: #ff0000;
+}
+
+#copyright {
+    color: #fff;
+}
